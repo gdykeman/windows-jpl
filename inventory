@@ -1,0 +1,11 @@
+[all:vars]
+
+[windows:vars]
+ansible_user=LocalUsername
+ansible_password=Password
+ansible_connection=winrm
+ansible_winrm_transport=basic
+
+[windows]
+win_host1 ansible_host=x.x.x.x
+win_host2 ansible_host=x.x.x.x
